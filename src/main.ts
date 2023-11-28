@@ -14,7 +14,7 @@ async function bootstrap() {
       whitelist: true, // hanya properti yang telah didefinisikan dalam DTO (Data Transfer Object) yang akan diterima dari data yand dimasukan.
     }),
   );
-  await app.listen(5000);
+  await app.listen(3000);
 }
 
 bootstrap();
